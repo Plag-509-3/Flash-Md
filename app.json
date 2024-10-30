@@ -1,6 +1,6 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "PLAG-MD",
+  "description": "An easy and simple WhatsApp bot developed by PLAG",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/nqgz89.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
@@ -10,7 +10,7 @@
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
+      "value": "+",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -25,7 +25,7 @@
     },
     "AUTO_VIEW_STATUS": {
       "description": "Automatically view your contacts' status updates. Type 'on' to activate or 'off' to deactivate.",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "AUTO_SAVE_STATUS": {
@@ -73,17 +73,17 @@
     },
     "SESSION_ID": {
       "description": "Place your unique FLASH MD session ID here. This is required for the bot to function.",
-      "value": "",
+      "value": "FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU1B5NkJ4Ynhla3NJd1RlaitIL2VOc2YxOWdRUGJJZTBvNkNIM2lBcWtXdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUEJiZXcvcGg1UGVEdTVub2R0U2d2ZnR6ZUhyWEVZRXdYTnhpRXRISkZ6ND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhRmwzMVhwQTNSc3greEVCTzVQczVQZGdFSkd1aXd4S1hsZ1VtZlNrMzJjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5aFBBbkFFbzIxbHVpaDUwNDVkZXNyUlZzVS94U2ZoblJCVjRvdE9oKzA4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdLOFdjT3ZTTkpjSUVuNWxEK0pyd0xrcXdIRDNmeTlNOVdhZndnSzNGSFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpyM2JVUFQvU1RLQmMyNEFnNUhVVzBGYzJ2YWovS09qQ2hXUmxSSk1qM3c9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU095ZGJKNmhSem1NZlh2OGtKdzNkNTQyQVFNREdpUk4zZUxwd0VvTEludz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVzNPcnlDbUVLR01CcE1ONEMxY3ByYnhQZXVPYjFudEZpaWQ3R0VlYUtSMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkYvNFVOVWorc1M5K05QMllDUU1jcURVNlNTc2RiU0M3T0VwN2lXRE9UcmlpaTcrSTJzUE9rbndIWlFjR0NxYXAweCtRcFZud1ArRE83SmJYQjVnWkN3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE4LCJhZHZTZWNyZXRLZXkiOiJYakdBL2paZVJMRjU4VXl4cEJ4d2UycFJEdERCMHpMUmhoc1RycHIyWjZZPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjUwOTQ3NDQwODY5QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IjA5MzI3QTI4OTVDOEJEMUJFQUYxOEE1NTVBOTNFNDAwIn0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MzAyNzcyMDZ9XSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlNPSWZwc0drUUstbDhOcXk3M0NTaWciLCJwaG9uZUlkIjoiOGYzMDA5ZTMtYjkyNi00MjdjLWExMDUtZjc2N2U0ZWYwZWU3IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ii8yK2VrOFhnenJ4emhtdXB3RFIySnNXTFZGcz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMZCtFV1REVDdsMXh2dW9CMTNzdVBjQnEzaVk9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVllGQzY0UTciLCJtZSI6eyJpZCI6IjUwOTQ3NDQwODY5OjM1QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQbVVxN0FHRU1EZWg3a0dHQndnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiI3L2grWFVvRlRQM3piNzhzUTNFQkJkdks3NkF2aGJTZDNPKzVQaDRVaHpVPSIsImFjY291bnRTaWduYXR1cmUiOiJlWGRlK0orSngzcEpxT2VSbjFMcnBGRFhySVh2RFIrUzZoNWw5R25iUjluME5kcXdyeWRWSzNEM2ZiYWY5RXBQVWxXRXFMWlBEcWh6NTVNR0xuUXZEQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoieWFhUWlzYitid3BIeEdhUHVGQTFvdXBZWkwveUZPdWxyV3U1amhiVVNKMUxPMzhOc1NzTUVab1BFajR3RmNpT3VnNWlhcDZvdklDc3NDbGJRcU1GQmc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDk0NzQ0MDg2OTozNUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJlLzRmbDFLQlV6OTgyKy9MRU54QVFYYnl1K2dMNFcwbmR6dnVUNGVGSWMxIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzMwMjc3MTk4LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQURvSyJ9",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "PLAG CORP",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "50947440869",
       "required": false
     },
     "WARN_COUNT": {
@@ -93,7 +93,7 @@
     },
     "CHAT_BOT": {
       "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "STARTING_MESSAGE": {
